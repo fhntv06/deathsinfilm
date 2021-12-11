@@ -4,7 +4,6 @@
 
 ?>
 
-<main class="main">
 
     <section class="section__img" style="background-image:url(<?= $films[0][5] ?>);">
         <div class="container-shadow"></div>
@@ -119,4 +118,3 @@
 
 
     </section>
-</main>

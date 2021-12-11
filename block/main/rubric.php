@@ -4,12 +4,8 @@
 
 ?>
 
-
-
-<main class="main">
-
     <?php 
-        require_once "category.php";
+        require_once "mainHeader.php";
     ?>
     
     <section class="wrapper">
@@ -26,7 +22,7 @@
                     foreach($films as $cardFilm){
                         
                         if($countCard < $maxCountFilms){
-                ?>
+            ?>
                         <li class="list__item">
                             <img class="item__img" src="<?= $cardFilm[4] ?>" title="<?= $cardFilm[1] ?>" alt="<?= $cardFilm[1] ?>">
                             <div class="item__text text-title">
@@ -95,5 +91,3 @@
         </section>
 
     </section>
-
-</main>

@@ -9,12 +9,13 @@
     $url = $url[0];
 
     if( $url == $protocol."deathsinfilm/" ){
-        $title = "Deaths in the film";
+        $title = "Deaths in the film";  
 
     }
 
-    if( $url == $protocol."deathsinfilm//404.php" ){
+    if( $url == $protocol."deathsinfilm/404.php" ){
         $title = "Страница не найдена";
+        $error404 = true;
     }
 
    

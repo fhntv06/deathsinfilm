@@ -4,4 +4,3 @@
     // код
 
 
-    require_once "index.php";
